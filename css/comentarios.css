@@ -1,0 +1,37 @@
+.div_hide{
+    opacity: 0;
+  }
+  
+
+.ul2{
+    display: grid;
+    background: rgb(187, 187, 187);
+    font-family: "Oswald", sans-serif;
+    padding: 10px ;
+    text-align: center;
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: 10px 10px black;
+    width: 250px;
+    position: relative;
+    left:50px;
+}
+
+.ul2 h6{
+    font-family: "Oswald", sans-serif;
+    padding: 10px ;
+    text-align: left;
+    position: relative;
+    left: 20px;
+}
+
+.ul2 button{
+    font-family: "Oswald", sans-serif;
+    padding: 10px ;
+    text-align: left;
+    position: relative;
+    left: 130px;
+}
+
+.show{
+    display: 100%;
+}

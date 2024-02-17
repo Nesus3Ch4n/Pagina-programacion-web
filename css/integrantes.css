@@ -1,0 +1,71 @@
+.nuevoIntegrante{
+    display: grid;
+    border: 3px solid black ;
+    width: 650px;
+    text-align: center;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    left: 50px;
+}
+
+.integrantes{
+    display: grid;
+    border: 3px solid black ;
+    width: 650px;
+    text-align: center;
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+    
+}
+
+.integrantes span{
+    
+    font-size: 28px;
+    border: 2px solid black;
+    border-radius: 100px;
+    padding: 5px;
+    position: relative;
+    top: 5px;
+    left: 0px;
+}
+
+.integrantes img{
+    width: 300px;
+    width: 300px;
+    float: left;
+    border: 1px solid black;
+}
+
+.integrantes p{
+    font-size: 24px;
+    position: relative;
+    
+}
+
+.integrantes strong{
+    font-size: 28px;
+}
+
+#uno{
+    position: relative;
+    left: 50px;
+    background: rgba(0, 110, 253, 0.689);
+}
+
+#dos{
+    position: relative;
+    left: 100px;
+    top: 150px;
+    background: rgba(118, 253, 0, 0.689);
+}
+
+#tres{
+    position: relative;
+    left: 50px;
+    
+    background: rgba(255, 255, 0, 0.689);
+}
+
