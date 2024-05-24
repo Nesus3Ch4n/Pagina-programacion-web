@@ -1,0 +1,36 @@
+.seccion-parq{
+    background-color: white;
+    border: 1px solid black;
+    
+}
+
+.zonas{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.puestos{
+    display: inline-block;
+    color: black;
+    border: 1px solid black;
+    height: 250px;
+    
+}
+
+.puestos span{
+    position: relative;
+    left: 35px;
+}
+.puestos h3{
+    font-size: 22px;
+    padding: 10px;
+}
+
+.puestos button{
+    color: white;
+    background-color: blue;
+    position: relative;
+    left: 12px;
+    top: 50px
+}

@@ -1,18 +1,47 @@
-body {
-    width: 100%;
-    height:100%;
-    position: relative;
-    
-    animation-name: example;
-    animation-duration: 10s;
-    animation-delay: 2s;
-    animation-iteration-count: infinite;
+b {
+  width: 100%;
+  height: 100%;
+  position: relative;
+
+  animation-name: example;
+  animation-duration: 10s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example {
+  0% {
+    background-color: rgba(255, 255, 255, 0.734);
   }
-  
-  @keyframes example {
-    0% {background-color: rgba(255, 255, 255, 0.734);}
-    25% {background-color: rgba(189, 188, 188, 0.659);}
-    50% {background-color: rgba(135, 135, 135, 0.657);}
-    75% {background-color: rgba(187, 187, 187, 0.742);}
-    100% {background-color: rgba(255, 255, 255, 0.775);}
+
+  25% {
+    background-color: rgba(189, 188, 188, 0.659);
   }
+
+  50% {
+    background-color: rgba(135, 135, 135, 0.657);
+  }
+
+  75% {
+    background-color: rgba(187, 187, 187, 0.742);
+  }
+
+  100% {
+    background-color: rgba(255, 255, 255, 0.775);
+  }
+}
+
+#btn-liberar1,
+#btn-liberar2,
+#btn-liberar3,
+#btn-liberar4,
+#btn-liberar5,
+#btn-liberar6,
+#btn-liberar2-1,
+#btn-liberar2-2,
+#btn-liberar2-3,
+#btn-liberar2-4,
+#btn-liberar2-5,
+#btn-liberar2-6 {
+  display: none;
+}
